@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 app = FastAPI(
-    title="CourseTA API",
+    title="teaching assistant API",
     version="1.0.0",
-    description="API for CourseTA agentic system including preprocessing and graph-based agents."
+    description="API for teaching assistant agentic system including preprocessing and graph-based agents."
 )
 
 # Add CORS middleware to allow requests from Gradio frontend
