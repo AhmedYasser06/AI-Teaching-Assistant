@@ -1,6 +1,6 @@
-# AI Teaching Assistant
+# CourseTA
 
-An Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
+CourseTA is an Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
 
 ## Features
 
@@ -24,8 +24,8 @@ An Agentic AI-powered teaching assistant that helps educators process educationa
 
 1. Clone this repository:
    ```bash
-   https://github.com/AhmedYasser06/AI-Teaching-Assistant.git
-   cd AI-Teaching-Assistant
+   https://github.com/AhmedYasser06/CourseTA.git
+   cd CourseTA
    ```
 
 2. Install FFmpeg:
@@ -51,7 +51,7 @@ An Agentic AI-powered teaching assistant that helps educators process educationa
    curl -fsSL https://ollama.ai/install.sh | sh
    ```
    
-   **Pull the recommended model:**
+5. **Pull the recommended model:**
    
    ```bash
    ollama pull qwen3:4b
@@ -60,7 +60,7 @@ An Agentic AI-powered teaching assistant that helps educators process educationa
 6. Set up your environment variables (API keys, etc.) in a `.env` file.
 
    **Update `.env` with your credentials:**
-   ```
+   ```bash
    cp .env.example .env
    ```
 ## Usage
@@ -76,6 +76,16 @@ An Agentic AI-powered teaching assistant that helps educators process educationa
    ```bash
    python gradio_ui.py
    ```
+## Tech Stack
+
+- **Python 3.11**
+- **FastAPI** — Backend API
+- **Gradio** — User interface
+- **LangChain** — LLM application framework
+- **LangGraph** — Agent workflow orchestration
+- **Ollama** — Optional local LLM inference
+- **FFmpeg** — Audio/video processing
+- **Vector Database** — Semantic retrieval
 
 ## Architecture
 
