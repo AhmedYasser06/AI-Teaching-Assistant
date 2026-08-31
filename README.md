@@ -1,6 +1,6 @@
-# Agentic AI-Powered Teaching Assistant
+# EduFlowTA
 
-An Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
+EduFlowTA is an Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
 
 ## Features
 
