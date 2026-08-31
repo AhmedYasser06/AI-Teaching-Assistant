@@ -1,6 +1,6 @@
-# CourseTA
+# Agentic AI-Powered Teaching Assistant
 
-CourseTA is an Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
+An Agentic AI-powered teaching assistant that helps educators process educational content, generate questions, create summaries, and build Q&A systems.
 
 ## Features
 
