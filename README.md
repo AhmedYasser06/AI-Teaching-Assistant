@@ -24,8 +24,8 @@ https://github.com/user-attachments/assets/58c7e695-e194-4f6f-9487-dbbf54a23277
 
 1. Clone this repository:
    ```bash
-   https://github.com/AhmedYasser06/CourseTA.git
-   cd CourseTA
+   https://github.com/AhmedYasser06/EduFlowTA.git
+   cd EduFlowTA
    ```
 
 2. Install FFmpeg:
@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/58c7e695-e194-4f6f-9487-dbbf54a23277
 
 ## Architecture
 
-CourseTA uses a microservice architecture with agent-based workflows:
+EduFlowTA uses a microservice architecture with agent-based workflows:
 
 - **FastAPI backend** for API endpoints
 - **LangChain-based processing pipelines** with multi-agent workflows
@@ -97,7 +97,7 @@ CourseTA uses a microservice architecture with agent-based workflows:
 
 ### Agent Graph Architecture
 
-CourseTA implements three main agent graphs, each designed with specific nodes, loops, and reflection mechanisms:
+EduFlowTA implements three main agent graphs, each designed with specific nodes, loops, and reflection mechanisms:
 
 #### 1. Question Generation Graph
 ![Question Generation Graph](docs/question_generation_graph.png)
@@ -171,7 +171,7 @@ The Q&A agent implements intelligent topic classification and retrieval:
 
 ### Async API Architecture
 
-CourseTA implements a comprehensive async API architecture that supports both synchronous and streaming responses, providing real-time user experiences and efficient resource utilization.
+EduFlowTA implements a comprehensive async API architecture that supports both synchronous and streaming responses, providing real-time user experiences and efficient resource utilization.
 
 ## API Documentation
 
