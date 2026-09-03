@@ -118,6 +118,11 @@ The Question Generation agent follows a human-in-the-loop pattern with reflectio
 - Router decides: `save` (END), `auto` (refiner), or `feedback` (rewriter)
 - Both refiner and rewriter loop back to human feedback for continuous improvement
 
+
+https://github.com/user-attachments/assets/6f934bbb-42a4-4269-a03a-d4a02907ba46
+
+
+
 #### 2. Content Summarization Graph
 ![Summarization Graph](docs/summarization_graph.png)
 
